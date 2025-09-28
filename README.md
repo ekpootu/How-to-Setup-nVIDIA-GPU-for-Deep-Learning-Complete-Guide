@@ -41,11 +41,16 @@ You can download *Anaconda* using the link below:
  nvidia-msi
  ```
  This will show your entire *GPU configuration*, including the *Driver Version:* number, and *CUDA Version:* number displayed (*see screenshot below*).
- <img width="1484" height="761" alt="Image" src="https://github.com/user-attachments/assets/04910604-1598-4ce5-92f8-99152b990017" />
+
+ <img width="1480" height="759" alt="Image" src="https://github.com/user-attachments/assets/479ccc45-0c88-43e7-b0ca-25efaa524aa4" />
  
- The *CUDA Version* number actually shows you the *maximum* CUDA version that you can install from [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive).
+The *CUDA Version* number actually shows you the *maximum* CUDA version that you can install from [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive). But it is not advisable to install this version number for CUDA.
+### Determining The Correct CUDA Toolkit Version
+To accurately determine the correct CUDA Toolkit version number for your nVIDIA GPU, open the **[Pytorch Install](https://pytorch.org/get-started/locally/)** website, **[here](https://pytorch.org/get-started/locally/)**. See the screenshot below and note that the specific CUDA version is there indicated. 
 
+<img width="1654" height="994" alt="Image" src="https://github.com/user-attachments/assets/d3ceb144-7425-42ae-ae85-a3a8ea74d30d" />
 
+You should now go to the  [CUDA Toolkit Download Page](https://developer.nvidia.com/cuda-toolkit-archive) to download and install the correct version.
 
 ## Step #5: Install cuDNN
 
