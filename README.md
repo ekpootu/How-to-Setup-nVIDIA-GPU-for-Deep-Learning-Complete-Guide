@@ -36,10 +36,10 @@ You can download *Anaconda* using the link below:
  <!-- - **<a href="https://developer.nvidia.com/cuda-toolkit-archive" target="blank">Click Here - Download CUDA Toolkit</a>**-->
  When you click on the above link, you will find that there are many versions of *CUDA Toolkit*. In order to determine which version you should download for your specific *GPU*, do the following:
  - i. Open the *Command Prompt* window on your PC.
- - ii. In the *COmmand Prompt*, Type: 
- '''python
+ - ii. In the *Command Prompt*, Type: 
+ ```python
  nvidia-msi
- '''
+ ```
  - Press Enter. You will see your entire *GPU configuration*, including the *'Driver Version:'* number, and *'CUDA Version:'* number displayed (see screenshot below).
  
  The *CUDA Version* number actually shows you the *maximum* CUDA version that you can install from [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive).
