@@ -21,7 +21,7 @@ You will need to install MS Visual Studio, with C++ libraries.
 Note that C++ libraries are not installed with Visual Studio by default, Therefore, we msut select all of the C++ options that needs to be installed.
 You can download *Visual Studio Community Edition* using the link below: 
  - **[Click Here - Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)**
- <!-- - **<a href="https://visualstudio.microsoft.com/vs/community/" target="_blank">Click Here - Visual Studio Community Edition</a>**
+ <!-- - **<a href="https://visualstudio.microsoft.com/vs/community/" target="_blank">Click Here - Visual Studio Community Edition</a>** -->
 
 ## Step #3: Install Anaconda/Miniconda
 
