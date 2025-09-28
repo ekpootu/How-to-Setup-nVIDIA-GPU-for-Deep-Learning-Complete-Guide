@@ -2,7 +2,8 @@
 
 Watch the video below or follow the 7-steps below the video, to learn HOW TO FULLY SETUP NVIDIA GPU FOR DEEP LEARNING.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zhoA3k6II5I?si=Za15lMqktZX8YiGi&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+[![Watch the video](https://img.youtube.com/vi/zhoA3k6II5I/maxresdefault.jpg)](https://youtu.be/zhoA3k6II5I)
+### [Watch this video on YouTube](https://youtu.be/zhoA3k6II5I)
 
 ## Step #1: Install NVIDIA Video Driver
 
