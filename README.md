@@ -46,7 +46,7 @@ You can download *Anaconda* using the link below:
  
 The *CUDA Version* number actually shows you the *maximum* CUDA version that you can install from [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive). But it is not advisable to install this version number for CUDA.
 ### Determining The Correct CUDA Toolkit Version
-To accurately determine the correct CUDA Toolkit version number for your nVIDIA GPU, open the **[Pytorch Install](https://pytorch.org/get-started/locally/)** website, **[here](https://pytorch.org/get-started/locally/)**. See the screenshot below and note that the specific CUDA version is there indicated. 
+To accurately determine the correct CUDA Toolkit version number for your nVIDIA GPU, go to the **[Pytorch Install](https://pytorch.org/get-started/locally/)** website, **[here](https://pytorch.org/get-started/locally/)**. *Note* that the specific CUDA version is there indicated (*lower than the version number shown on your CMD's GPU information*) - See the screenshot below. 
 
 <img width="1654" height="994" alt="Image" src="https://github.com/user-attachments/assets/d3ceb144-7425-42ae-ae85-a3a8ea74d30d" />
 
@@ -63,11 +63,19 @@ You should now go to the  [CUDA Toolkit Download Page](https://developer.nvidia.
  - **[Click Here > Download & Install PyTorch](https://pytorch.org/get-started/locally/)**
  <!-- - **<a href="https://pytorch.org/get-started/locally/" target="blank">Click Here - Download & Install PyTorch</a>**-->
 
+The *Final* step of this installation procedure is to install Pytorch via Python command.
 
+However, before installing ***Pytorch***, you need to:
+- First create a Python *virtual environment* - Watch the video above for full walkthrough.
+- After you have created your virtual environment using Python/Anaconda, you have to switch to the newly created *virtual environment*.
+- Finally, copy and paste the "Run this Command:" *pip/conda* command which you get from the **[Pytorch Install](https://pytorch.org/get-started/locally/)** website. See below:
 
+```python
+ pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+ ```
 
 ## Step #7: Testing The GPU
-This is the *Final* step to confirm the your GPU is properly installed/configured. To do so, *Run* the following script to test the GPU.
+After all of the above are done, we can then confirm whether or not the GPU is properly installed/configured for use. To do so, *Run* the following script to test the GPU.
 
 ```python
 import torch
