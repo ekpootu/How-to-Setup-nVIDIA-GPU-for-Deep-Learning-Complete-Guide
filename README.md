@@ -71,7 +71,7 @@ However, before installing ***Pytorch***, you need to:
 - Finally, copy and paste the "Run this Command:" *pip/conda* command which you get from the **[Pytorch Install](https://pytorch.org/get-started/locally/)** website. See below:
 
 ```python
- (PyGPU) C:\Windows\System32> pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+(PyGPU) C:\Windows\System32> pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 # Alternatively, using Conda
 (PyGPU) C:\Windows\System32> conda install pytorch torchvision torchaudio pytorch-cuda=12.8 -c pytorch -c nvidia
  ```
