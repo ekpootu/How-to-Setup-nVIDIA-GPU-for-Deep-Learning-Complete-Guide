@@ -38,7 +38,7 @@ You can download *Anaconda* using the link below:
  - i. Open the *Command Prompt* window on your PC.
  - ii. In the *Command Prompt*, Type the command below and press ENTER. 
  ```python
- nvidia-msi
+ nvidia-smi
  ```
  This will show your entire *GPU configuration*, including the *Driver Version:* number, and *CUDA Version:* number displayed (*see screenshot below*).
 
