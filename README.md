@@ -19,7 +19,7 @@ You can download *nVIDIA GPU drivers* using the link below:
 
 You will need to install MS Visual Studio, with C++ libraries. 
 Note that C++ libraries are not installed with Visual Studio by default, Therefore, we must select all of the C++ options that needs to be installed. See the selected items in RED from the screenshot below, for a list of Visual C++ components to install.
-![Visual C++ components to install during this phase.]([Visual C++ Components to install.png](https://github.com/ekpootu/How-to-Setup-nVIDIA-GPU-for-Deep-Learning-Complete-Guide/tree/main/Visual%20C++%20Components%20to%20install.png)
+<img width="1920" height="1110" alt="Visual C++ components to install" src="https://github.com/ekpootu/How-to-Setup-nVIDIA-GPU-for-Deep-Learning-Complete-Guide/tree/main/Visual%20C++%20Components%20to%20install.png" />
 
 You can download *Visual Studio Community Edition* using the link below: 
  - **[Click Here > Download Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)**
@@ -44,7 +44,7 @@ You can download *Anaconda* using the link below:
  ```
  This will show your entire *GPU configuration*, including the *Driver Version:* number, and *CUDA Version:* number displayed (*see screenshot below*).
 
- <img width="1480" height="759" alt="Image" src="https://github.com/user-attachments/assets/479ccc45-0c88-43e7-b0ca-25efaa524aa4" />
+ <img width="1480" height="759" alt="GPU configuration for your PC" src="https://github.com/user-attachments/assets/479ccc45-0c88-43e7-b0ca-25efaa524aa4" />
  
 The *CUDA Version* number actually shows you the *maximum* CUDA version that you can install from [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive). But it is not advisable to install this version number for CUDA.
 ### Determining The Correct CUDA Toolkit Version
