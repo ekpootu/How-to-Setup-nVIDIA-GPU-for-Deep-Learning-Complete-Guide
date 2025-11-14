@@ -19,7 +19,8 @@ You can download *nVIDIA GPU drivers* using the link below:
 
 You will need to install MS Visual Studio, with C++ libraries. 
 Note that C++ libraries are not installed with Visual Studio by default, Therefore, we must select all of the C++ options that needs to be installed. See the selected items in RED from the screenshot below, for a list of Visual C++ components to install.
-![Visual C++ components to install during this phase.](Visual C++ Components to install.png)
+![Visual C++ components to install during this phase.]([Visual C++ Components to install.png](https://github.com/ekpootu/How-to-Setup-nVIDIA-GPU-for-Deep-Learning-Complete-Guide/tree/main/Visual%20C++%20Components%20to%20install.png)
+
 You can download *Visual Studio Community Edition* using the link below: 
  - **[Click Here > Download Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)**
  <!-- - **<a href="https://visualstudio.microsoft.com/vs/community/" target="_blank">Click Here - Visual Studio Community Edition</a>** -->
